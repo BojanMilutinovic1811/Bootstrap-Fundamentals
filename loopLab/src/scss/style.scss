@@ -1,0 +1,15 @@
+// Main Sass File
+
+$primary-color: #008ed6;
+$bg-color: #333;
+$font-color: #fff; 
+
+body {
+    background-color: $bg-color;
+    color: $font-color;
+}
+
+.navbar {
+    opacity: 0.8;
+    border-bottom: solid 3px $primary-color;
+}
