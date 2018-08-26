@@ -5,3 +5,27 @@ body {
 .navbar {
   opacity: 0.8;
   border-bottom: solid 3px #008ed6; }
+
+#home-section {
+  background: url("../img/adult-black-and-white-cellphone-1232148.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #home-section .inner-home {
+    padding-top: 130px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    opacity: 0.9; }
