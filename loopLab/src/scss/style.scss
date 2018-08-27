@@ -4,7 +4,7 @@ $primary-color: #008ed6;
 $bg-color: #333;
 $font-color: #fff; 
 $dark-overlay: rgba(0,0,0,0.7);
-$font-size: 30px; 
+$icon-size: 30px; 
 
 body {
     background-color: $bg-color;
@@ -43,9 +43,31 @@ body {
     .fa {
         color: $primary-color;
         background: #fff;
-        font-size: $font-size;
+        font-size: $icon-size;
         padding: 4px; 
         border-radius: 5px; 
         opacity: 0.9; 
+    }
+}
+
+#explore-section {
+    .fa {
+        color: #fff;
+        background: #333;
+        font-size: $icon-size;
+        padding: 4px; 
+        border-radius: 5px; 
+        opacity: 0.9; 
+    }
+}
+
+#create-section {
+    .fa{
+        color: $primary-color;
+        background: #fff;
+        font-size: $icon-size;
+        padding: 4px; 
+        border-radius: 5px; 
+        opacity: 0.9;
     }
 }
