@@ -37,11 +37,7 @@
                         <a href="#create-head" class="nav-link">Create</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#share" class="nav-link">Share</a>
-                    </li>
-                </ul>
+                 
             </div>
         </div>
     </div>
@@ -123,7 +119,7 @@
     <section id="explore-head">
         <div class="container">
             <div class="row">
-                <div class="col text-center py-5">
+                <div class="col text-center py-3">
                     <h1 class="display-4">
                         EXPLORE
                     </h1>
@@ -141,7 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="/img/explore.jpg" alt="" class="img-fluid rounded mb-3">
+                    <img src="img/explore.jpg" alt="" class="img-fluid rounded mb-3">
                 </div>
                 <div class="col-lg-6">
                     <h3 class='text-center'>Explore & Connect</h3>
@@ -169,11 +165,11 @@
         </div>
     </section>
 
- <!-- CREATE-HEAD-SECTION -->
- <section id="create-head" class='bg-primary text-center'>
+    <!-- CREATE-HEAD-SECTION -->
+    <section id="create-head" class='bg-primary text-center'>
         <div class="container">
             <div class="row">
-                <div class="col text-center py-5">
+                <div class="col text-center py-3">
                     <h1 class="display-4">
                         CREATE
                     </h1>
@@ -191,7 +187,7 @@
         <div class="container">
             <div class="row">
                 <div class='col-lg-6'>
-                    <h3 class='text-center'>Explore & Connect</h3>
+                    <h3 class='text-center'>Create</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos sapiente iste amet. Atque, dolorum!</p>
                     <div class="d-flex flex-row">
                         <div class="p-4 align-self-start">
@@ -212,13 +208,66 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-6">
-                            <img src="/img/create.jpg" alt="" class="img-fluid rounded my-3">
-                        </div>
+                <div class="col-lg-6">
+                    <img src="img/create.jpg" id='create-image' alt="" class="img-fluid rounded my-3">
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
+
+    <!-- FOOTER SECTION -->
+
+
+    <footer id="main-footer" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col py-3 text-center">
+                    <h3>YO!</h3>
+                    <p>copyright &copy; 2018</p>
+                    <div class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#contact-modal">Contact Us</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONTACT MODAL -->
+
+    <div class="modal fade text-dark" id="contact-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Contact Us</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-gtoup">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-gtoup">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-gtoup">
+                            <label for="message">Message</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="btn btn-block btn-primary">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
     <script src="js/jquery.min.js"></script>
