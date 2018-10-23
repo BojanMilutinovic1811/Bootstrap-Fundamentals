@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #505962;
+}
+
+.navbar {
+    text-transform: uppercase !important;
+    background-color: #505962 !important;
+}
+
+.home-inner {
+    background-image: url(images/landing.jpg)
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.caption h3 {
+    color: #505962;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;  
+    border-width: medium;
+    color: #505962;
+    border-color: #505962;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+h3.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.padding {
+    padding: 2rem 0;
+}
+
+img.portfolio {
+    max-width: 100%;
+}
+
+.no-padding .col-md-6 {
+    padding: 0;
+}
+
+.card {
+    margin: 0 2rem;
+}
+
+.custom-padding {
+    padding-bottom: 0; 
+}
+.footer .row {
+    background-color: #505962;
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background: #E9ECEF;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  
