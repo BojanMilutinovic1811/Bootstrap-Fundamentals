@@ -1,5 +1,4 @@
-window.sr = ScrollReveal();
-
+window.sr = new ScrollReveal({ mobile: false })
 sr.reveal('.navbar', {
     duration: 2500
 });
